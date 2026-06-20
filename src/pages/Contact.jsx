@@ -1,4 +1,4 @@
-﻿import React, { useState } from "react";
+import React, { useState } from "react";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaClock, FaLinkedin, FaTwitter, FaYoutube, FaFacebook } from "react-icons/fa";
 import SEO from "../components/SEO";
 
@@ -97,8 +97,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-sm font-bold text-gray-950">Email Channels</h4>
-                    <p className="text-xs text-gray-500 mt-1.5">Corporate: info@PYRAMID.com</p>
-                    <p className="text-xs text-gray-500">Engineering: design@PYRAMID.com</p>
+                    <p className="text-xs text-gray-500 mt-1.5">Corporate: info@pyramidfibreplastics.com</p>
+                    <p className="text-xs text-gray-500">Engineering: design@pyramidfibreplastics.com</p>
                   </div>
                 </div>
               </div>

@@ -1,4 +1,4 @@
-﻿import { useEffect } from "react";
+import { useEffect } from "react";
 
 const SEO = ({ 
   title, 
@@ -77,8 +77,8 @@ const SEO = ({
           "availableLanguage": ["en", "ta"]
         },
         "sameAs": [
-          "https://www.linkedin.com/company/PYRAMID-industries",
-          "https://twitter.com/PYRAMID_ind"
+          "https://www.linkedin.com/company/pyramidfibreplastics",
+          "https://twitter.com/pyramidfibreplastics"
         ]
       };
       schemaScript = document.createElement("script");

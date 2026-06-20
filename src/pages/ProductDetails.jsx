@@ -1,4 +1,4 @@
-﻿import React, { useState } from "react";
+import React, { useState } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { FaFileDownload, FaCheckCircle, FaQuoteRight, FaArrowLeft, FaCheck } from "react-icons/fa";
 import { products } from "../data/products";
@@ -80,7 +80,7 @@ ${product.applications.map(a => `- ${a}`).join("\n")}
 
 --------------------------------------------------------
 For custom diameter winding layers, pressure calculations, or installation blueprints,
-contact our technical engineering cell: engineering@PYRAMID.com
+contact our technical engineering cell: engineering@pyramidfibreplastics.com
     `;
     const blob = new Blob([content], { type: "text/plain" });
     const url = URL.createObjectURL(blob);

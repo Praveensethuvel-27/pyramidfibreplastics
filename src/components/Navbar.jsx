@@ -47,9 +47,9 @@ const Navbar = () => {
             <FaPhoneAlt size={10} />
             <span>+91 44 2456 7890</span>
           </a>
-          <a href="mailto:info@PYRAMID.com" className="hidden sm:flex items-center space-x-2 hover:text-accent transition-colors">
+          <a href="mailto:info@pyramidfibreplastics.com" className="hidden sm:flex items-center space-x-2 hover:text-accent transition-colors">
             <FaEnvelope size={10} />
-            <span>info@PYRAMID.com</span>
+            <span>info@pyramidfibreplastics.com</span>
           </a>
         </div>
         <div className="text-gray-300 text-[10px] md:text-xs font-light">
@@ -59,7 +59,7 @@ const Navbar = () => {
 
       {/* Main Navigation */}
       <header
-        className={`fixed w-full z-40 transition-all duration-300 ${
+        className={`fixed w-full z-50 transition-all duration-300 ${
           isScrolled
             ? "top-0 glass-nav shadow-premium py-3"
             : "top-8 bg-white/95 border-b border-gray-100 py-4"
@@ -268,12 +268,11 @@ const Navbar = () => {
 
         {/* Mobile Navigation Drawer */}
         <div
-          className={`fixed inset-0 bg-white z-50 lg:hidden shadow-2xl transform transition-transform duration-300 ease-in-out ${
+          className={`fixed inset-0 bg-white z-45 lg:hidden shadow-2xl transform transition-transform duration-300 ease-in-out ${
             isOpen ? "translate-x-0" : "translate-x-full"
           }`}
-          style={{ top: isScrolled ? "56px" : "88px" }}
         >
-          <div className="h-full overflow-y-auto px-6 py-6 space-y-1 flex flex-col justify-between pb-24">
+          <div className="h-full overflow-y-auto px-6 pt-28 pb-24 space-y-1 flex flex-col justify-between">
             <div className="space-y-3">
               <NavLink
                 to="/"
@@ -396,7 +395,7 @@ const Navbar = () => {
                 Request A Quote
               </Link>
               <div className="text-center text-xs text-gray-500">
-                Email: info@PYRAMID.com | Phone: +91 44 2456 7890
+                Email: info@pyramidfibreplastics.com | Phone: +91 44 2456 7890
               </div>
             </div>
           </div>
